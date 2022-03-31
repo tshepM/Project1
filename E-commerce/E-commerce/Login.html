@@ -1,0 +1,109 @@
+<html lang="en">
+<html>
+    <head>
+        <title>Farmerzon</title>
+        <style>
+            BODY{
+               font-family: 'Times New Roman', Times, serif;
+               font-style: oblique;
+               font: normal;
+            }
+            input[type=text],input[type=password]{
+                width: 60%;
+                height: 5px;
+                padding: 10px;
+                margin: 10px 0 22px 0;
+                display: inline-block ;
+                border: none;
+                outline: none;
+                background: whitesmoke;
+            }
+            button{
+                background-color: rgba(223, 211, 195, 0.76);
+                color: antiquewhite;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover{
+                opacity: 0.8;
+            }
+            .imgcontainer{
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: relative;
+            }
+            img.ava{
+                width: 40%;
+                border-radius: 50%;
+            }
+            .modal{
+                background-image: url(../E-commerce/img/FARMERZON-logos.jpeg);
+                background-size: 700px;
+                overflow: auto;
+                width: 100%;
+                height: 100%;
+                top: 0%;
+                left: 0%;
+                z-index: 1;
+                position: fixed;
+                color: #fff;
+            }
+            .modal-content{
+                background-color: transparent;
+                width: 420px;
+                height: 620px;
+                margin: auto;
+                border-radius: 10px;
+                -webkit-transform: translate(-50%,-50) ;
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                background: rgba(0, 0, 0, 0, 6);
+            }
+            .container{
+                padding: 16px;
+            }
+            span.psw{
+                float: right;
+                padding-top: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="modal">
+        <form class="modal-content animate">
+            <div class="imgcontainer">
+            <img src="img/nw/ava.webp" class="ava">
+            </div>
+            <div class="container">
+            <br/>
+            <label>
+                Username
+            </label>
+            <input type="text" placeholder="Username"/>
+            <br/>
+            <label>
+                Password
+            </label>
+            <input type="password" placeholder="Password"/>
+            <br/>
+            <input type="checkbox">Remember me
+            <button><a href="index.html">Login</a></button>
+            <label>
+                <p>Forgot <a href="#">Password</a></p>
+            </label>
+            <label>
+                <p>Don't have an account?<a href="Sign-Up.html">SIGN UP</a></p>
+            </label>
+            </div>
+        </div>
+        </form>    
+    </body>
+</html>

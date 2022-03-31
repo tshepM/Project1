@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatitable" content="IE-edge">
+        <meta name="viewpoint" content="width=device, initial-scale=1.0">
+        <title>Farmerzon</title>
+        <script src="https://kit.fontawesome.com/dc1fcad070.js" crossorigin="anonymous"></script>
+        <style>
+            BODY{
+               font-family: 'Times New Roman', Times, serif;
+               font-style: oblique;
+               font: normal;
+               background-image: url(../E-commerce/img/FARMERZON-logos.jpeg) ;
+               background-size: 700px;
+               background-attachment: fixed;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .container{
+                background-color: transparent;
+                width: 420px;
+                height: 620px;
+                margin: auto;
+                border-radius: 10px;
+                -webkit-transform: translate(-50%,-50) ;
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: #fff;
+            }
+            input[type=text],input[type=text], input[type=email],input[type=password]{
+                width: 60%;
+                height: 5px;
+                padding: 10px;
+                margin: 10px 0 22px 0;
+                display: inline-block ;
+                border: none;
+                outline: none;
+                background: whitesmoke;
+            }
+            input[type=text]:focus,input[type=text]:focus,input[type=email]:focus,input[type=password]:focus{
+                background-color: #ddd ;
+                outline: none;
+            }
+            .registerbtn{
+                background-color: rgba(223, 211, 195, 0.76);
+                padding: 16px 20px;
+                margin: 8px;
+                cursor: pointer;
+                width: 85%;
+                opacity: 0.9;
+            }
+            .registerbtn:hover{
+                opacity: 1;
+            }
+            a{
+                color: blue;
+            }
+            .login{
+                background: rgba(94, 78, 78, 0.116);
+                text-align: center;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form>
+            <h2>SIGN UP</h2>
+            <p>Fill in your detials</p>
+            <hr>
+            <label>NAME</label>
+            <input type="text" placeholder="Name"/>
+            <br/>
+            <label>SURNAME</label>
+            <input type="text" placeholder="Surname"/>
+            <br/>
+            <label> EMAIL</label>
+            <input type="email" placeholder="email address"/>
+            <br/>
+            <label>PASSWORD</label>
+            <input type="password" placeholder="password"/>
+            <br/>
+            <label>RE-PASSWORD</label>
+            <input type="password" placeholder="re-password"/>
+            <p>
+                By creating an account you agree to our 
+                <a href="terms.html">Terms and conditions</a> and <a href="terms.html">private policy</a>
+            </p>
+
+            <button class="registerbtn"><a href="index.html">Sign-Up</a></button>
+            <div class="login">
+            <p>Already have account?<a href="Login.html">Login</a></p>
+        </form>
+        </div>
+    </body>
+</html>
